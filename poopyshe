@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd /root/poopyshe && bash poopy.sh
+

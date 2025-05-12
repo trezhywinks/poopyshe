@@ -1,0 +1,21 @@
+{
+  "name": "poopyshe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script/server.js",
+  "scripts": {
+    "start": "node script/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon script/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0",
+    "figlet": "^1.8.1",
+    "nodemon": "^3.1.10",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
