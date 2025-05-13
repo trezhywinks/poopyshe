@@ -1,1 +1,124 @@
-<span>Hi trezhywinks</span>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>PoopyChat</title>
+</head>
+
+<body>
+  <div class="hin">
+    <div class="op">
+      <div class="saz">
+        <img src="../img/IMG_1315.png" style="border-radius: 100px; margin-top:-4px ;" width="70" height="70"/>
+        
+      </div>
+      <div class="home" style="display: none;">
+       <div class="lin"></div>
+       <div class="lin"></div>
+       <div class="lin"></div>
+      </div>
+      <div class="hin">
+        <h2 style="font-weight: 300;">WhatsApp Poopy</h2>
+      </div>
+    </div>
+    <br><br><br>
+    
+    <div class="gow">
+      <div class="dow">
+        <img src="img/IMG_0064.jpeg" style="border-radius: 5px;" width="100" height="100"/>
+      </div>
+      <div class="dow2">
+        <h3 style="letter-spacing: -1px; font-weight: 700;">PoopyChat</h3>
+        <p style="font-size: 13px; opacity: 0.6;">Hello user! Connect your WhatsApp to PoopyChat</p>
+      <button class="share" id="share" type="submit">Chatbot</button>
+      <script>
+        document.getElementById('share').addEventListener('click', () => {
+  const div = document.getElementById('der');
+  div.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  const divBottom = div.getBoundingClientRect().bottom + window.scrollY;
+  const pageBottom = document.body.scrollHeight;
+
+  if (pageBottom - divBottom < 50) {
+    window.scrollTo({ top: pageBottom, behavior: 'smooth' });
+  }
+});
+
+      </script>
+      </div>
+    </div>
+    
+    <div class="linked">
+      <h3 style="letter-spacing: -1px; font-weight: 700;">Linked devices</h3>
+      <img src="./img/IMG_1449.jpeg" width="100%" height="70%" style="border-radius: 10px;"/>
+    </div>
+    <div class="der" id="der">
+      <h3 style="letter-spacing: -1px; font-weight: 700;">Connect <span style="color: #3193e4; font-weight: 600; letter-spacing: -1px;">PoopyChat</span></h3>
+   <div class="ints">
+     <div class="labe">
+       <label for="name" class="label">Your name</label>
+     </div>
+     <br>
+     <input type="text" name="name" id="name"/>
+   </div>
+   <p style="opacity: 0.4; margin: 5px; font-size: 12px; font-weight:500;">Try your name</p>
+  
+  <div class="ints">
+    <div class="labe_er">
+      <label for="number" class="label_20">Your number</label>
+    </div>
+    <br>
+    <input type="number" id="number" name="number"/>
+  </div>
+  <p style="opacity: 0.4; margin: 5px; font-size: 12px; font-weight:500;">Try your number, example: +1 (904) XXX-XXXX</p>
+    
+    <br>
+    <button type="submit" class="connec_t">Verify</button>
+    <br>
+    <br>
+    <div class="qrcod">
+      <div class="zap">
+        <div id="qrcode"></div>
+        <div class="def">
+          <img src="./img/67f09e72e9e238549038dbd9.png" width="110" height="110"/>
+          <span style=" font-size: 14px; font-weight: 600;">WhatsApp PoopyChat</span>
+          <p style="opacity: 0.4; font-size: 12px;">Version: 99.23.13.2.0</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br> <br>
+    <div class="bottom">
+      <div class="hazakl">
+        <div class="imgf">
+        <img src="./img/IMG_1315.png" width="80"/>
+      </div>
+      <div class="namesap">
+              <h4>WhatsApp</h4>
+      </div>
+      </div>
+      <div class="reds">
+        <p style="opacity: 0.4; font-size: 12px;">&copy; PoopyChat 2017 - 2025<br>Made with love for you</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <center>
+  <span style="font-size: 12px; font-weight: 600; opacity: 0.4; margin: 10px;">WhatsApp <span style="margin: 10px;">Help</span> <span>ChatBot</span><span style="margin: 10px;">Terms of services</span></span>
+  </center>
+  <script src="./main.js"></script>
+      <script type="text/javascript" src="cdn_modules/qrcode-generator@1.4.4/qrcode.min.js"></script>
+      <script type="text/javascript" src="cdn_modules/qrcodejs@1.0.0/qrcode.min.js"></script>
+      <script>
+        new QRCode(document.getElementById("qrcode"), {
+          text: "https://whatsapp.com",
+          width: 150,
+          height: 150
+        });
+      </script>
+</body>
+
+</html>

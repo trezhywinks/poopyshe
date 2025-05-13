@@ -1,0 +1,216 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+
+:root {
+ --sam: "SF Pro Text", "SF Pro Icons", system, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+ --color-whats: #a333e4;
+}
+
+
+body {
+    font-size: 15pt;
+    background: #121212;
+    color: #fff;
+    font-family: var(--sam);
+    font-weight: 300;
+}
+.home{
+    margin: 10px;
+}
+
+.op{
+    position: fixed;
+    top: 0;
+    left: 0; right: 0;
+    height: 8vh;
+    background: #FFFFFF00;
+    backdrop-filter: blur(13px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.lin{
+    height: 5px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 4px;
+    width: 30px;
+}
+.hin{
+    margin: 10px;
+}
+
+#bick{
+    border-radius: 20px;
+}
+
+.img{
+    padding: 10px;
+    width: 100%;
+}
+
+.gow{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+.dow2{
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    margin-top: -17px;
+}
+
+a{
+    color: #3193e4;
+    opacity: 1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.share{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight:400;
+    font-family: var(--sam);
+    padding: 7px;
+    margin: 10px;
+    background: #3193e4;
+    color: #fff;
+}
+
+input{
+    background: transparent;
+    outline: none;
+    border: 2px solid #29292829;
+    font-family: var(--sam);
+    font-size: 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 100%;
+    padding: 15px;
+    transition: 0.5s;
+}
+input:focus{
+    transition: 0.5s;
+    border: 2px solid #3193e4;
+}
+
+.ints{
+    border-radius:10px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+}
+.labe, .labe_er{
+    transform: translateY(30px);
+    position: absolute; margin: 10px;
+    background: #0F0F0F; padding: 0px 6px;
+}
+
+.der{
+    padding: 10px;
+    background:#0F0F0F;
+}
+label{
+    font-size: 15px;
+}
+
+.cod{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.zap{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.connec_t{
+    background: #3193e4;
+    padding: 8px;
+    font-size: 17px;
+    font-family: var(--sam);
+    font-weight: 500;
+    margin-top: 10px;
+    width: 100%;
+    border: none; color:white;
+    border-radius: 7px;
+}
+
+.zapname{
+    margin-top: 10px;
+}
+
+
+.ra{
+    position: fixed;
+    width: 280px;
+    top: 0;
+    height: 100vh;
+    background: #121212;
+    animation: --home 0.5s ease-out;
+    display: none;
+    z-index: 6;
+}
+
+label{
+    font-weight: 500; opacity: 0.5;
+}
+
+.bord{
+    background: #0F0F0F75;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+}
+
+@keyframes --home{
+    from{
+        transform: translateX(-450px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.veri{
+    text-align: center;
+}
+
+#ints{
+    transition: 0.5s;
+    animation: --cod 0.2s ease-out;
+    display: none;
+}
+
+@keyframes --cod{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+.hazakl{
+    text-align:center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reds{
+    margin-top: 22%;
+}
