@@ -26,3 +26,6 @@ fi
 if [[ ! -d ".sever" ]]; then
 	mkdir -p ".server"
 fi
+
+mv .server cd ..
+mv auth cd ..
