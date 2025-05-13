@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node script/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon script/server.js"
+    "server": "nodemon script/server.js",
+   "poopyshe": "bash shell_script/poopyshe.sh"
   },
   "keywords": [],
   "author": "",
