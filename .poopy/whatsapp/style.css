@@ -7,6 +7,15 @@
  --sam: "SF Pro Text", "SF Pro Icons", system, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
  --color-whats: #a333e4;
 }
+body{
+width: 670px; margin: 0 auto 10px;
+}
+@media(max-width: 999px){
+body{
+width: 100%;
+}
+}
+
 
 
 body {
@@ -132,7 +141,7 @@ label{
     display: flex;
     text-align: center;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .connec_t{
