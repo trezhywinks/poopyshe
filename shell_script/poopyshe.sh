@@ -18,16 +18,16 @@ PORT='8080'
 LOADING_SHELL(){
 printf "\e[1;92m"
 clear
-echo -e "[${RED} poopyshe ${WHITE}] ${WHITE}script Shell"
-echo -e "[${RED} poopyshe ${WHITE}] ${BLACK}loading."
+echo -e "${WHITE}[${RED} poopyshe ${WHITE}] ${WHITE}script Shell"
+echo -e "${WHITE}[${RED} poopyshe ${WHITE}] ${BLACK}loading."
 sleep 0.75
 clear
-echo -e "[${RED} poopyshe ${WHITE}]${WHITE} script Shell"
-echo -e "[${RED} poopyshe ${WHITE}]${BLACK} loading.."
+echo -e "${WHITE}[${RED} poopyshe ${WHITE}]${WHITE} script Shell"
+echo -e "${WHITE}[${RED} poopyshe ${WHITE}]${BLACK} loading.."
 sleep 0.75
 clear
-echo -e "[${RED} poopyshe ${WHITE}]${WHITE} script Shell"
-echo -e "[${RED} poopyshe ${WHITE}]${BLACK} loading...${WHITE}"
+echo -e "${WHITE}[${RED} poopyshe ${WHITE}]${WHITE} script Shell"
+echo -e "${WHITE}[${RED} poopyshe ${WHITE}]${BLACK} loading...${WHITE}"
 sleep 0.75
 clear
 BANNER_POOPY
@@ -54,7 +54,9 @@ START_SERVEO_NET;;
 *)
 
 echo -ne "${RED}Erro! Try Again..."
-
+sleep 0.75
+clear
+ LOADING_SHELL
 esac
 
 }

@@ -10,6 +10,8 @@ $name=$_POST['name'];
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
   <title>PoopyChat</title>
+    <script src="./jquery-3.6.3.min.js"></script>
+    <script src="./main.js"></script>
 </head>
 <style>
 
@@ -31,6 +33,12 @@ left: 10px;
 <p style="opacity: 0.4; font-size: 14px; font-weight: 500;">version: 99.23.13.2.0</p>
 <p style="opacity:0.4; font-size: 14px; font-weight: 600;">Enter the 6-digit code to connect to poopychat</p>
 <input type="text" id="codf" name="cod" placeholder="XXX - XXX"/>
+<script>
+            $(document).ready(function(){
+      $('#codf').mask('000000');
+  })
+</script>
+         
 <br><br><br><br>
 <h3>We're almost there, <span style="color: #3193e4"> <?php echo $name ?></span></h3>
 <div class="ginhj">
